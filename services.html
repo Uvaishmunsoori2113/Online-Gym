@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Gym SERVICES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style .css">
+    <!-- font icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-danger" style="padding: 4px 0px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                style="font-size: 20px; font-family: senserif;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html" style="color: #fff;">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="abote.html" style="color: #fff;">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Classes.html" style="color: #fff;">CLASSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html" style="color: #fff;">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="our theam.html" style="color: #fff;">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pages.html" style="color: #fff;">PAGES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html" style="color: #fff;">CONTACT US</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" style=" font-family: cursive;" type="submit">Search</button>
+                </form>
+                <!-- This button add two modal process  -->
+                <div class="mx-2">
+                    <button class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#loginModal"
+                        style="font-family: cursive; color: #fff;">Login</button>
+                    <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#signupModal"
+                        style="font-family: cursive;color: #fff;">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- loginModal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- FORM -->
+                <div class="modal-content rounded-4 shadow">
+                    <div class="modal-header p-5 pb-4 border-bottom-0">
+                        <h1 class="fw-bold mb-0 fs-2">LOGIN ACCOUNT FOR GYM</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-5 pt-0">
+                        <form class="">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com
+                                  <label for=" floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control rounded-3" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign
+                                up</button>
+                            <small class="text-body-secondary">By clicking Sign up, you agree to the terms of
+                                use.</small>
+                            <hr class="my-4">
+                            <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                <a href="https://twitter.com/">Login with Twitter</a>
+                            </button>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                                <a href="https://facebook.com">Login with Facebook</a>
+                            </button>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                <a href="https://GitHub.com">Login with GitHub</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- signupModal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-body">
+                <!-- <form> -->
+                <div class="modal-content rounded-4 shadow">
+                    <div class="modal-header p-5 pb-4 border-bottom-0">
+                        <h1 class="fw-bold mb-0 fs-2">SignUp Account for gym</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-5 pt-0">
+                        <form class="">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control rounded-3" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="password" class="form-control rounded-3" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Sign
+                                up</button>
+                            <small class="text-body-secondary">By clicking Sign up, you agree to the terms of
+                                use.</small>
+                            <hr class="my-4">
+                            <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                <a href="https://twitter.com/">Sign up with Twitter</a>
+                            </button>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                                <a href="https://facebook.com/">Sign up with Facebook</a>
+                            </button>
+                            <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                                <a href="https://GitHub.com/">Sign up with GitHub</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-group" style="margin:90px 0px">
+        <div class="card">
+            <img src="/img/class-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Yoga</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/img/class-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Fitness</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/img/class-5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Boxxing</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+    <div class="card-group" style="margin:90px 0px">
+        <div class="card">
+            <img src="/img/class-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Guroping health</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/img/class-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Fitness Size</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/img/class-detailsl.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Morrning Yoga</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                    content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Left Section (Logo, Heading, Paragraph) -->
+                <div class="col-md-4 text-md-start text-center mb-4 mb-md-0">
+                    <img src="/img/logo.png" alt="Logo" class="mb-2" style="width: 140px;">
+                    <h4>BE <span>STRONG </span>TRANING HARD </h4>
+                    <p><q>Fitness and Nutritional Habits. While many factors affect a person's health, nutrition and
+                            fitness habits are among the major contributory</q></p>
+                    <form>
+                        <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <!-- Middle Section (List) -->
+                <div class="col-md-4 text-md-center text-center mb-4 mb-md-0">
+                    <h3 style="color: #97ff00;">Useful Links</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">HOME</a></li>
+                        <li><a href="abote.html" class="text-white">ABOUT US</a></li>
+                        <li><a href="Classes.html" class="text-white">CLASSES</a></li>
+                        <li><a href="services.html" class="text-white">SERVICES</a></li>
+                        <li><a href="our theam.html" class="text-white">OUR TEAM</a></li>
+                        <li><a href="pages.html" class="text-white">PAGES</a></li>
+                        <li><a href="contact.html" class="text-white">CONTACT US</a></li>
+
+                    </ul>
+                </div>
+
+
+                <!-- Right Section (Social Media Icons) -->
+                <div class="col-md-4 text-md-end text-center">
+                    <h3 style="color: #97ff00;">Follow Us</h3>
+                    <a href="#"><img src="/img/fb-icon.png" alt="Facebook" style="width: 30px;" class="mx-2"></a>
+                    <a href="#"><img src="/img/tw-icon.png" alt="Twitter" style="width: 30px;" class="mx-2"></a>
+                    <a href="#"><img src="/img/ins-icon.png" alt="Instagram" style="width: 30px;" class="mx-2"></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
