@@ -124,8 +124,10 @@ span {
     width: 80%;
     
   }
-.carousel-item{
-  height:543px;
+  
+.carousel-item {
+  height: 64vh;
 }
+
   
 }
