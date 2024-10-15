@@ -119,8 +119,8 @@ span {
   height: 300px;
   object-fit: cover;
 }
-@media only screen and (max-width:1080px){
-  .carousel-caption{
-    width:
+@media only screen and (max-width: 1080px) {
+  .carousel-caption {
+    width: 80%;
   }
 }
